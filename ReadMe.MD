@@ -43,8 +43,8 @@ CADSR/
 
 ## Requirements
 
-- Python 3.11
-- PyTorch 2.1 with CUDA 12.1 (**GPU strongly recommended** — roughly 10× faster than CPU)
+- Python 3.9.0
+- PyTorch 2.5.1 with CUDA 11.8 (**GPU strongly recommended** — roughly 10× faster than CPU)
 - See `environment.yml` for the full Conda environment or `requirements.txt` for pip
 - Environment was initially tested on Windows 11.
 
