@@ -6,6 +6,7 @@ import time
 from BTS_Transformer_model import *
 import os
 import numpy as np
+from pathlib import Path
 from expression_tree import simplify_equation, ExpressionTree
 import warnings
 import copy
@@ -565,7 +566,7 @@ class CADSR:
 
         self.run_info["Training Cycle"].append(self.training_info)
 
-        with open(os.getcwd() + self.save_loc + self.save_name, 'wb') as file:
+        with open(Path.cwd() / self.save_loc / self.save_name, 'wb') as file:
             pkl.dump(self.run_info, file)
 
         self.training_info["Total Entropy"] = i * sample_dist_entropy
