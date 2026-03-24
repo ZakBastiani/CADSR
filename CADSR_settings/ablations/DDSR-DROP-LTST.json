@@ -1,0 +1,41 @@
+{
+  "two_children_funcs": [],
+  "one_children_funcs": [],
+  "variables": [],
+  "expression_tree_device": "cuda",
+  "seed": 123,
+  "model_parameters": {
+    "max_depth": 32,
+    "num_heads": 1,
+    "dim_feedforward": 2048,
+    "encoder_layers": 1,
+    "parent_sibling_info_in_encoder": false,
+    "decoder_layers": 1,
+    "oversampling": 3,
+    "opt_const": true,
+    "use_dct": false,
+    "embedding_dim": 15,
+    "dct_dim": 12,
+    "max_num_const": 10,
+    "pe": "OneDPE",
+    "device": "cuda",
+    "diff_steps": 25
+  },
+  "optimizer_parameters": {
+    "lr": 1e-4,
+    "weight_decay": 0.0
+  },
+  "reward_function": "NMSE",
+  "policy": "GRPO",
+  "policy_scaling": "Linear",
+  "sampling_method": "LLDiffusion",
+  "risk_epsilon": 0.05,
+  "save_ratio": 0.0,
+  "bic_scaler": 1.0,
+  "entropy_coef": 0.0005,
+  "equation_optimizer": "lm",
+  "beta": 0.01,
+  "epsilon_clip": 0.2,
+  "epochs_per_ref": 5,
+  "steps_per_sample": 5
+}
