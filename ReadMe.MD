@@ -43,7 +43,7 @@ CADSR/
 
 ## Requirements
 
-- Python 3.9.0
+- Python 3.9.0+
 - PyTorch 2.5.1 with CUDA 11.8 (**GPU strongly recommended** — roughly 10× faster than CPU)
 - See `environment.yml` for the full Conda environment or `requirements.txt` for pip
 - Environment was initially tested on Windows 11.
@@ -181,6 +181,12 @@ y = omega * sqrt(x1² + v²/omega²)
 Ablation configurations for reproducing the paper's experiments are provided in `CADSR_settings/`.
 
 ---
+
+## Dataset and Results
+
+The link bellow contains the results of CADSR's performance on SRBench to enable direct comparison for other methods. Additionally, the csv file containing the data for the Fracture Mechanics problem can be found within the same link.
+
+Link: https://drive.google.com/drive/folders/1qQXgeTkK6LjuJAP4tigI3jiwypXuEWXs?usp=drive_link
 
 ## Citation
 
